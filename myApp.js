@@ -57,7 +57,7 @@ res.json({name:`${firstname} ${lastname}`})
 app.post("/name", (req, res) => {
   const firstname = req.body.first
   const lastname = req.body.last
-res.json({name:`${firstname} ${lastname}`})
+res.json({'name':`${firstname} ${lastname}`})
 });
 
 
